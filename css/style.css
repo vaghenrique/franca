@@ -1,0 +1,54 @@
+body {
+    font-size: larger;
+    color: blueviolet;
+    background-color: burlywood;
+    /* background-image: url("../img/paris-france.jpg"); */
+    /* background-repeat: no-repeat; */
+    text-align: center;    
+}
+
+h1{
+    color: rgb(9, 1, 1);
+}
+
+p{    
+    color: brown;
+    font-size: 16px;
+}
+
+img {
+    width: 30%;
+}
+
+table, tr, td{
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 18px;
+    color: black;
+}
+
+.estilo1{
+    color: rgb(26, 6, 23);
+}
+
+#intro{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6;
+    color: black;
+}
+
+.geral{
+    display: flex;
+    justify-content: space-between;
+   
+    margin: 20px;
+}
+
+.listas{
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap:wrap;
+
+    margin: 20px;
+}
